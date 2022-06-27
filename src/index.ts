@@ -66,7 +66,7 @@ const main = async () => {
   const table = createTable();
 
   config.checkPatterns.forEach((pattern) => {
-    console.log(chalk.blue(`exracting ${config.checkPatterns} `));
+    console.log(chalk.blue(`exracting ${pattern} `));
     const vueFiles = file.extractAll(pattern);
     console.log(chalk.yellow(`${vueFiles.length} files are matched.`));
     console.log(chalk.blue(`scanning function with`), chalk.bgBlue(`'${toExample(config.targetFunctionNames)}' `));
