@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "Node16",
+
+    "declaration": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "strict": true,
+    "types": ["node", "jest"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["**/__tests__/**/*", "./lib/**/*"]
+}
