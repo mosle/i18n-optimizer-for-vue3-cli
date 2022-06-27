@@ -1,5 +1,5 @@
 {
-  outputDir: "./.output",
+  outputDir: "./optimized-locales",
   inputDir: "./__tests__/fixtures/locales",
   checkPatterns: ["./__tests__/fixtures/**/*.vue"],
   targetFunctionNames: { t: 0, i18n: 1 }, // {[key:string/*function name*/]:number/*argument index*/}

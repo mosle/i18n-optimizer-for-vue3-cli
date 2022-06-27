@@ -1,6 +1,6 @@
 {
   "name": "i18n-optimizer-for-vue3-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "./lib/index.js",
   "bin": {
